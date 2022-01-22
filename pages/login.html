@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- favicon here  -->
+  <link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
+  <!-- styles import -->
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- fonts import -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- main logo font and nav bar font import -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+  <!-- all contents fonts import -->
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <section class="navbar">
+
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper  teal darken-2">
+          <a href="/" class="brand-logo">
+            <img src="../assets/main-logo/main-logo.png" alt="brand-logo" id="logo"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav" class="right hide-on-med-and-down">
+            <li><a href="#" onclick="toggleModal();">How to use</a></li>
+            <li><a href="../pages/about-us.html">About us</a></li>
+            <li><a href="../pages/favorites.html">Favorites</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger hoverable" href="#!" data-target="dropdown1">&nbsp;
+                <i class="material-icons right">more_vert</i></a></li>
+            <!-- login button -->
+            <li><a href="#"  title="this page" class="waves-effect waves-light deep-purple darken-3 btn hoverable">
+                <i class="material-icons left">account_circle</i>Login/Sign up</a>
+            </li>
+
+          </ul>
+          <!-- dropdown menus -->
+          <ul id="dropdown1" class="dropdown-content">
+            <li><a href="../pages/Disclamer.html">Disclamer</a></li>
+            <li><a href="../pages/contact-us.html">Contact Us</a></li>
+            <li><a href="../pages/privacy policy.html">Privacy Policy</a></li>
+            <li><a href="../pages/tnc.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Here is the Mobile side navbar   -->
+    <ul class="sidenav" id="mobile-demo">
+      <!-- login button -->
+      <li><a href="#" title="this page"  class="waves-effect waves-light deep-purple darken-3 btn-large z-depth-2">
+          <i class="material-icons  left">account_circle</i>Login/Sign Up</a></li>
+      <li><a href="#" onclick="toggleModal();">How to use</a></li>
+      <li><a href="/pages/about-us.html">About us</a></li>
+      <li><a href="/pages/favorites.html">Favorites</a></li>
+      <li><a href="/pages/Disclamer.html">Disclamer</a></li>
+      <li><a href="/pages/contact-us.html">Contact Us</a></li>
+      <li><a href="/pages/privacy policy.html">Privacy Policy</a></li>
+      <li><a href="/pages/tnc.html">Terms & Conditions</a></li>
+    </ul>
+  </section>
+
+  <div class="section"></div>
+  <main>
+    <center>
+      
+      <div class="section"></div>
+
+      <h3 class="indigo-text"> SIGN UP  </h3>
+      <div class="section"></div>
+
+      <div class="container">
+        <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+          <form class="col s12" action="regis.php" method="POST" autocomplete="off" >
+            <div class='row'>
+              <div class='col s12'>
+              </div>
+            </div>
+
+            <div class='row'>
+                <div class='input-field col s12'>
+                  <input class='validate' type='text' name='username' id='username' />
+                  <label for='username'>Enter your username</label>
+                </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input class='validate' type='email' name='email' id='email' />
+                <label for='email'>Enter your email</label>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input class='validate' type='password' name='password' id='password' />
+                <label for='password'>Enter your password</label>
+              </div>
+              <label style='float: right;'>
+								<a class='pink-text' href='#!'><b>Forgot Password?</b></a>
+							</label>
+            </div>
+
+            <br />
+            <center>
+              <div class='row'>
+                <button type="submit" name="create" class='col s12 btn btn-large waves-effect indigo'>create</button>
+              </div>
+            </center>
+          </form>
+        </div>
+      </div>
+      <a href="#!">login account</a>
+    </center>
+
+    <div class="section"></div>
+    <div class="section"></div>
+  </main>
+
+
+
+
+
+<!-- modal-content for how to use-->
+<section class="infomodal">
+    <div id="modal3" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4 id="info-modal-heading">How To Use</h4>
+        <p id="info-modal-content">We are still working on it to explain best use of this Tool</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+  </section>
+  
+    <!-- light/dark mode button  -->
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large deep-purple darken-3 hoverable">
+        <i class="large material-icons">brightness_4</i>
+      </a>
+    </div>
+  
+  
+    <!-- jquery import -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../js/script.js"></script>
+  
+  </body>
+  </html>

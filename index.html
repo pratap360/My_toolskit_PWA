@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Toolkits</title>
+  <!-- favicon here  -->
+  <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
+  <!-- styles import -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- fonts import -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- main logo font and nav bar font import -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+  <!-- all contents fonts import -->
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <section class="navbar">
+
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper  teal darken-2">
+          <a href="/" class="brand-logo">
+            <img src=" ./assets/main-logo/main-logo.png" alt="brand-logo" id="logo"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav" class="right hide-on-med-and-down">
+            <li><a href="#" onclick="toggleModal();">How to use</a></li>
+            <li><a href="/pages/about-us.html">About us</a></li>
+            <li><a href="/pages/favorites.html">Favorites</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger hoverable" href="#!" data-target="dropdown1">&nbsp;
+                <i class="material-icons right">more_vert</i></a></li>
+            <!-- login button -->
+            <li><a href="/pages/login.html" class="waves-effect waves-light deep-purple darken-3 btn hoverable">
+                <i class="material-icons left">account_circle</i>Login/Sign up</a>
+            </li>
+            <!-- light/dark mode toggle button in nav bar  -->
+            <!-- <li><a href="#" class="btn-floating btn-small waves-effect waves-light  light-blue accent-4">
+            <i class="material-icons left">brightness_4</i></a>
+          </li> -->
+
+          </ul>
+          <!-- dropdown menus -->
+          <ul id="dropdown1" class="dropdown-content">
+            <li><a href="/pages/Disclamer.html">Disclamer</a></li>
+            <li><a href="/pages/contact-us.html">Contact Us</a></li>
+            <li><a href="/pages/privacy policy.html">Privacy Policy</a></li>
+            <li><a href="/pages/tnc.html">Terms & Conditions</a></li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+    <!-- Here is the Mobile side navbar   -->
+    <ul class="sidenav" id="mobile-demo">
+      <!-- login button -->
+      <li><a href="/pages/login.html" class="waves-effect waves-light deep-purple darken-3 btn-large z-depth-2">
+          <i class="material-icons  left">account_circle</i>Login/Sign Up</a></li>
+      <li><a href="#" onclick="toggleModal();">How to use</a></li>
+      <li><a href="/pages/about-us.html">About us</a></li>
+      <li><a href="/pages/favorites.html">Favorites</a></li>
+      <li><a href="/pages/Disclamer.html">Disclamer</a></li>
+      <li><a href="/pages/contact-us.html">Contact Us</a></li>
+      <li><a href="/pages/privacy policy.html">Privacy Policy</a></li>
+      <li><a href="/pages/tnc.html">Terms & Conditions</a></li>
+      <!-- light/dark mode toggle button  in side nav bar  -->
+      <!-- <li><a href="#" class="btn-floating btn-small waves-effect waves-light  light-blue accent-4">
+      <i class="material-icons left">brightness_4</i></a>
+    </li> -->
+
+    </ul>
+
+  </section>
+
+
+  <!-- all tools lists -->
+  <section class="tools">
+
+    <!-- tool 1 -->
+    <div class="row" style="padding-left: 30px; padding-right: 30px;">
+      <section class="tool-catogries center">
+        <h3>Tools Section 1</h3>
+        <hr>
+      </section>
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://img.icons8.com/material/100/000000/file--v2.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tool name 1
+              <i class="material-icons right">more_vert</i>
+            </span><p><a href="#">Click to open</a></p>
+
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Tool name 1<i class="material-icons right">close</i></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, necessitatibus.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- next tool 2-->
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://img.icons8.com/material-sharp/100/000000/ok--v2.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tool Name 2
+              <i class="material-icons right">more_vert</i>
+            </span><p><a href="#">Click to open</a></p>
+
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Tool name 2<i class="material-icons right">close</i></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, necessitatibus.</p>
+          </div>
+        </div>
+      </div>
+      <!-- next tool 3-->
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://img.icons8.com/material-sharp/100/000000/settings.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tool Name 3
+              <i class="material-icons right">more_vert</i>
+            </span><p><a href="#">Click to open</a></p>
+
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Tool name 3<i class="material-icons right">close</i></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, necessitatibus.</p>
+          </div>
+        </div>
+      </div>
+      <!-- next tool 4-->
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/gifs/icons8-edit.gif">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tool Name 4
+              <i class="material-icons right">more_vert</i>
+            </span><p><a href="#">Click to open</a></p>
+
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Tool name 4<i class="material-icons right">close</i></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque commodi pariatur dolore esse, aliquam ab?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section class="tool-catogries center">
+        <h3>Tools Section 2</h3>
+        <hr>
+      </section>
+      <!-- next tool 5-->
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/gifs/icons8-ok.gif">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Expense Calculator
+              <i class="material-icons right">more_vert</i>
+            </span><p><a href="/tools/expense_calculator/expense-cal.html">Click to open </a></p>
+
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Expense Calculator<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <!-- next tool 6-->
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/gifs/icons8-document.gif">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Password Generator<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="/tools/pass_gen/pass_gen.html">Click to open</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Password Generator<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <!-- next tool 7 -->
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://img.icons8.com/material/100/000000/bookmark--v1.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Todo list<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="/tools/to_do_list/todo-list.html">Click to open</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Todo list<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- different section for different tools  -->
+  <section class="tools">
+    <!-- tool 8 , 9-->
+    <div class="row" style="padding-left: 30px; padding-right: 30px;">
+      <section class="tool-catogries center">
+        <h3>Tools Section 3</h3>
+        <hr>
+      </section>
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://img.icons8.com/material/100/000000/news--v1.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tool Name 8<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="#">Click to open</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Tool Name 8<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <!-- todo:  -->
+      <!-- fixme:  -->
+      <!-- tool 9  -->
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://img.icons8.com/material/100/000000/puzzle--v1.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tool Name 9<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="#">Click to open</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Tool Name 9<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- another seciton for tools -->
+  <section class="tools">
+    <div class="row" style="padding-left: 30px; padding-right: 30px;">
+      <section class="tool-catogries center">
+        <h3>Tools Section 4</h3>
+        <hr>
+      </section>
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://img.icons8.com/material/100/000000/share-2.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tool Name 10<i
+                class="material-icons right">more_vert</i></span>
+            <p><a href="tools/tool-name-7.html">Click to open</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Tool name 10<i
+                class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+ 
+<!-- modal-content for how to use-->
+<section class="infomodal">
+  <div id="modal3" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4 id="info-modal-heading">How To Use</h4>
+      <p id="info-modal-content">We are still working on it to explain best use of this Tool</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- light/dark mode button  -->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large deep-purple darken-3 hoverable" title="dark mode coming soon">
+      <i class="large material-icons">brightness_4</i>
+    </a>
+  </div>
+
+
+  <!-- jquery import -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
