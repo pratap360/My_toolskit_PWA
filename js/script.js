@@ -7,6 +7,7 @@ $(document).ready(function(){
     $('select').formSelect(); 
     $('.tabs').tabs();
     // $('.datepicker').datepicker(); 
+    $('.chips').chips();
 });
 
 function toggleModal() {
