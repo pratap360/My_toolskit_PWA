@@ -6,10 +6,12 @@ function colorChange(data) {
   window.addEventListener("load", () => {
     const canvas = document.querySelector("#canvas");
     const ctx = canvas.getContext("2d");
+    // var heightRatio = 1.5;
+    // canvas.height = canvas.width * heightRatio;
   
     //resizing
-    canvas.width = 650;
-    canvas.height = 350;
+    canvas.width = 600;
+    canvas.height = 300;
   
     //event listeners
     canvas.addEventListener("mousedown", startPosition);

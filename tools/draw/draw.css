@@ -3,28 +3,34 @@
     padding: 0;
     box-sizing: border-box;
   } */
-  .body {
+  /* .main {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: rgb(255, 255, 255);
-  }
-  #container {
+  } */
+
+  /* #container {
     background: rgb(7, 67, 102);
     box-shadow: inset -0.5vh -0.5vh 0.7vh rgb(218, 21, 21), inset 0.5vh 0.5vh 0.7vh rgb(255, 253, 253);
     padding: 30px;
     border-radius: 10px;
-  }
+  } */
   canvas {
-    border-radius: 10px;
+    border-radius: none;
+    border: solid 1px teal;  
     margin-bottom: 30px;
-    background: #222;
-    cursor: crosshair;
-    box-shadow: -0.5vh -0.5vh 1vh #111, 0.5vh 0.5vh 1vh #333;
+    background: #b9b9b9;
+    cursor: cell;
+    width: 100%;
   }
-  
-  #editBox {
+
+
+  blockquote{
+    border-color: #5d32ac !important;
+  }
+  /* #editBox {
     width: 650px;
     display: flex;
     justify-content: space-around;
@@ -34,13 +40,15 @@
     padding: 10px;
     border-radius: 10px;
   }
-  #colorBox {
+   */
+  /* #colorBox {
     width: 45%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-right: 50px;
   }
+
   #colorBox > div {
     border-radius: 50%;
     width: 30px;
@@ -51,15 +59,12 @@
   #colorBox > div:active {
     opacity: 0.6;
   }
-  
-  i {
-    font-size: 25px;
-    margin: 5px;
-    color: white;
-    cursor: pointer;
-  }
+   */
+
+
   input {
     cursor: pointer;
     width: 80px;
   }
-  
+
+ 
