@@ -24,7 +24,8 @@
   <script type="text/javascript" src="/js/materialize.min.js"></script>
   <!-- manifest import -->
   <link rel="manifest" href="/manifest.json">
-
+  <!-- required data for browser -->
+    <meta name="theme-color" content="#00796b">
 </head>
 
 <body>
@@ -40,7 +41,8 @@
           <ul id="nav" class="right hide-on-med-and-down">
             <li><a href="#" onclick="toggleModal();">How to use</a></li>
             <li><a href="/pages/about-us.html">About us</a></li>
-            <li><a href="/pages/favorites.html">Favorites</a></li>
+            <!-- <li><a href="/pages/favorites.html">Favorites</a></li> -->
+            <li><a href="/pages/contact-us.html">Contact Us</a></li>
             <!-- Dropdown Trigger -->
             <li><a class="dropdown-trigger hoverable" href="#!" data-target="dropdown1">&nbsp;
                 <i class="material-icons right">more_vert</i></a></li>
@@ -57,7 +59,7 @@
           <!-- dropdown menus -->
           <ul id="dropdown1" class="dropdown-content">
             <li><a href="/pages/Disclamer.html">Disclamer</a></li>
-            <li><a href="/pages/contact-us.html">Contact Us</a></li>
+            <!-- <li><a href="/pages/contact-us.html">Contact Us</a></li> -->
             <li><a href="/pages/privacy policy.html">Privacy Policy</a></li>
             <li><a href="/pages/tnc.html">Terms & Conditions</a></li>
           </ul>
@@ -72,7 +74,7 @@
           <i class="material-icons  left">account_circle</i>Login/Sign Up</a></li>
       <li><a href="#" onclick="toggleModal();">How to use</a></li>
       <li><a href="/pages/about-us.html">About us</a></li>
-      <li><a href="/pages/favorites.html">Favorites</a></li>
+      <!-- <li><a href="/pages/favorites.html">Favorites</a></li> -->
       <li><a href="/pages/Disclamer.html">Disclamer</a></li>
       <li><a href="/pages/contact-us.html">Contact Us</a></li>
       <li><a href="/pages/privacy policy.html">Privacy Policy</a></li>
@@ -102,14 +104,14 @@
             <img class="activator" src="/assets/tools-logo/qrcode.png">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Qr Code Generator
-              <i class="material-icons right">more_vert</i>
+            <span class="card-title activator grey-text text-darken-4" title="description">Qr Code Generator
+              <i class="material-icons right">menu_open</i>
             </span>
-            <p><a href="/tools/qrcode/qr_code.html">Click to open</a></p>
+            <p><a href="/tools/qrcode/qr_code.html"><i class="material-icons left">launch</i>Click to open</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Qr Code Generator<i class="material-icons right">close</i></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, necessitatibus.</p>
+            <p>You can Generate qr code just pasting the any link, text or what ever you what to paste</p>
           </div>
         </div>
       </div>
@@ -121,36 +123,17 @@
             <img class="activator" src="https://img.icons8.com/material-sharp/100/000000/ok--v2.png">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Todo list<i
-                class="material-icons right">more_vert</i></span>
-            <p><a href="/tools/to_do_list/todo-list.html">Click to open</a></p>
+            <span class="card-title activator grey-text text-darken-4" title="description">Todo<br>List
+              <i class="material-icons right">menu_open</i></span>
+            <p><a href="/tools/to_do_list/todo-list.html"><i class="material-icons left">launch</i>Click to open</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Todo list<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <p>You can create you todo list as per your daily Schedule,also delete it after the task is finished</p>
           </div>
         </div>
       </div>
 
-      <!-- Expense Calculator -->
-      <div class="col s12 m6 l3" style="padding: 65px 35px;">
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="assets/tools-logo/expense-cal.png">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Expense Calculator
-              <i class="material-icons right">more_vert</i>
-            </span>
-            <p><a href="/tools/expense_calculator/expense-cal.html">Click to open </a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Expense Calculator<i
-                class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-          </div>
-        </div>
-      </div>
       <!-- password generator-->
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
@@ -158,21 +141,38 @@
             <img class="activator" src="./assets/tools-logo/pwd-gen.png">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Password Generator<i
-                class="material-icons right">more_vert</i></span>
-            <p><a href="/tools/pass_gen/pass_gen.html">Click to open</a></p>
+            <span class="card-title activator grey-text text-darken-4" title="description">Password Generator
+              <i class="material-icons right">menu_open</i></span>
+            <p><a href="/tools/pass_gen/pass_gen.html"><i class="material-icons left">launch</i>Click to open</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Password Generator<i
                 class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <p>This is the Password Generator You can Generate as many as password you can !</p>
           </div>
         </div>
       </div>
 
+      <!-- Draw -->
+      <div class="col s12 m6 l3" style="padding: 65px 35px;">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/tools-logo/draw.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4" title="description">Draw
+              <i class="material-icons right">menu_open</i>
+            </span>
+            <p><a href="/tools/draw/draw.html" title="upcoming tool in production"><i class="material-icons left">launch</i>Click to open</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Draw<i class="material-icons right">close</i></span>
+            <p>Just for time pass :) Draw it what you want & download the files & share it to anyone</p>
+          </div>
+        </div>
+      </div>
     
   
-
 
     </div>
   </section>
@@ -185,42 +185,40 @@
         <hr>
       </section>
 
-      
-      <!-- next tool 4-->
+      <!-- Expense Calculator -->
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/tools-logo/draw.png">
+            <img class="activator" src="assets/tools-logo/expense-cal.png">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Draw
-              <i class="material-icons right">more_vert</i>
+            <span class="card-title activator grey-text text-darken-4" title="description">Expense Calculator
+              <i class="material-icons right">menu_open</i>
             </span>
-            <p><a href="#" title="upcoming tool in production" >Click to open</a></p>
+            <p><a href="/tools/expense_calculator/expense-cal.html" title="fixing bug"><i class="material-icons left">launch</i>Click to open </a></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Draw<i class="material-icons right">close</i></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque commodi pariatur dolore esse, aliquam ab?
-            </p>
+            <span class="card-title grey-text text-darken-4">Expense Calculator<i
+                class="material-icons right">close</i></span>
+            <p>Here is the Expense Calculator to track the expense of you earnings.</p>
           </div>
         </div>
       </div>
-
-      <!-- next tool 3-->
+      <!-- Habit tracker-->
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="./assets/tools-logo/habit-track.png">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">habit tracker
-              <i class="material-icons right">more_vert</i>
+            <span class="card-title activator grey-text text-darken-4" title="description">habit tracker
+              <i class="material-icons right">menu_open</i>
             </span>
-            <p><a href="#" title="upcoming tool in production">Click to open</a></p>
+            <p><a href="#" title="upcoming tool in production"><i class="material-icons left">launch</i>Click to open</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">habit tracker<i class="material-icons right">close</i></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, necessitatibus.</p>
+            <p>You can Generate you good Habits just add it</p>
           </div>
         </div>
       </div>
@@ -243,9 +241,9 @@
             <img class="activator" src="https://img.icons8.com/material/100/000000/news--v1.png">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Tool Name 8<i
-                class="material-icons right">more_vert</i></span>
-            <p><a href="#">Click to open</a></p>
+            <span class="card-title activator grey-text text-darken-4" title="description">Tool Name 8<i
+                class="material-icons right">description</i></span>
+            <p><a href="#"><i class="material-icons left">launch</i>Click to open</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Tool Name 8<i class="material-icons right">close</i></span>
@@ -260,9 +258,9 @@
             <img class="activator" src="https://img.icons8.com/material/100/000000/puzzle--v1.png">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Tool Name 9<i
-                class="material-icons right">more_vert</i></span>
-            <p><a href="#">Click to open</a></p>
+            <span class="card-title activator grey-text text-darken-4" title="description">Tool Name 9<i
+                class="material-icons right">description</i></span>
+            <p><a href="#"><i class="material-icons left">launch</i>Click to open</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Tool Name 9<i class="material-icons right">close</i></span>
@@ -277,14 +275,15 @@
             <img class="activator" src="https://img.icons8.com/material/100/000000/share-2.png">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Tool Name 10<i
-                class="material-icons right">more_vert</i></span>
-            <p><a href="tools/tool-name-7.html">Click to open</a></p>
+            <span class="card-title activator grey-text text-darken-4" title="description">Tool Name 10<i
+                class="material-icons right">description</i></span>
+            <p><a href="tools/tool-name-7.html"><i class="material-icons left">launch</i>Click To Open</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Tool name 10<i
                 class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <div class="chip">tool tag</div>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 {
     "name": "My Toolkits",
-    "short_name": "toolkits",
+    "short_name": "Toolkits",
     "description" : "Here all the tools are availabe at one place",
     "start_url": "/index.html", 
     "display": "standalone",
