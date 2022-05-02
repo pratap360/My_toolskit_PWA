@@ -5,7 +5,6 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
 ![Jquery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![Responsive](https://img.shields.io/badge/Responsive-100%25-red)
 
 
@@ -32,7 +31,7 @@ Created and edited by Rahmat ali and pratap parui
    > And many more to Come
 
 
-- Here is the Web app link [Click here](https://brave-tree-066f6fc10.1.azurestaticapps.net/) to open the project web app
+- Here is the Web app link [Click here](pratap360.github.io/my_toolskit_PWA/) to open the project web app
 
 
 # Screenshot 
